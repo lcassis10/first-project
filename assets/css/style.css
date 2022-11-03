@@ -78,6 +78,8 @@ h1, h2 {
     height: 600px;
 }
 
+/*great beaches */
+
 #great-beaches {
     padding-top: 30px;
     width: 33%;
@@ -87,23 +89,10 @@ h1, h2 {
     background: url(../image/wonderfull.beaches.jpeg) no-repeat center;
     background-size: cover;
     color: #252525;
-    
-    
-    
-}
-
-#amazon-rainforest {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+      
     
 }
 
-#waterfalls {
-    width: 33%;
-    margin: 0 auto;
-    
-}
 
 #beach-text {
     font-size: 120%;
@@ -127,6 +116,8 @@ h1, h2 {
     word-spacing: 4px;
     color: #252525;
 }
+
+/* amazon rainforest */
 
 #amazon-rainforest {
     padding-top: 30px;
@@ -163,3 +154,42 @@ h1, h2 {
     word-spacing: 4px;
     color: #252525;
 }
+
+/* waterfalls */
+
+#waterfalls {
+    width: 33%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 30px;
+
+    background: url(https://images.unsplash.com/photo-1469572658677-6dd82062c8e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80) no-repeat center;
+    background-size: cover;
+    color: #252525;
+    
+}
+
+#waterfalls-text {
+    font-size: 120%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+
+    width: 500px;
+    height: 200px;
+    padding-left: 40px;
+    text-align: justify;
+    padding-top: 100px;
+    
+
+    
+}
+
+#waterfalls-text h2 {
+    font-size: 200%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 4px;
+    color: #252525;
+}
+
