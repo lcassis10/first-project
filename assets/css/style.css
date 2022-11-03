@@ -10,7 +10,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #fff;
 }
 
 /* heading and logo */
@@ -82,18 +82,48 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+    height: 100%;
+
+    background: url(https://images.pexels.com/photos/4674746/pexels-photo-4674746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center;
+    background-size: cover;
+    color: #252525;
+    
+    
+    
 }
 
 #amazon-rainforest {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
+    
 }
 
 #waterfalls {
     width: 33%;
     margin: 0 auto;
-    background-color: red;
+    
+}
+
+#beach-text {
+    font-size: 120%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+
+    width: 500px;
+    height: 200px;
+    padding-left: 40px;
+    text-align: justify;
+    padding-top: 100px;
+
+    
+}
+
+#beach-text h2 {
+    font-size: 200%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 4px;
+    color: #252525;
 }
