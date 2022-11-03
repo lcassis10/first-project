@@ -10,7 +10,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
-    color: #fff;
+    color: #252525;
 }
 
 /* heading and logo */
@@ -84,7 +84,7 @@ h1, h2 {
     float: left;
     height: 100%;
 
-    background: url(https://images.pexels.com/photos/4674746/pexels-photo-4674746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center;
+    background: url(../image/wonderfull.beaches.jpeg) no-repeat center;
     background-size: cover;
     color: #252525;
     
@@ -120,6 +120,42 @@ h1, h2 {
 }
 
 #beach-text h2 {
+    font-size: 200%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 4px;
+    color: #252525;
+}
+
+#amazon-rainforest {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    height: 100%;
+
+    background: url(../image/amazon.rainforest.jpeg) no-repeat center;
+    background-size: cover;
+    color: #252525;
+      
+}
+
+#amazon-text {
+    font-size: 120%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+
+    width: 500px;
+    height: 200px;
+    padding-left: 40px;
+    text-align: justify;
+    padding-top: 100px;
+    
+
+    
+}
+
+#amazon-text h2 {
     font-size: 200%;
     font-family: 'Secular One', sans-serif;
     letter-spacing: 2px;
