@@ -340,3 +340,107 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* form */
+
+#image-form {
+    height: 600px;
+    width: 100%;
+    background: url(../image/hero.image.jpg) no-repeat bottom;
+    background-size: cover;
+   
+}
+
+#cover-text-form {
+    font-size: 230%;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    
+
+    width: 800px;
+    height: 200px;
+
+    padding-left: 1200px;
+    padding-top: 130px;
+}
+
+/* media queries */
+@media screen and (max-width:1200px) {
+    #natural-wonders, #gastronomy, #destination {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+        
+    }
+
+    .heading-section {
+        padding: 30px 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    #great-beaches, #amazon-rainforest {
+        width: 100%;
+        height: 700px;
+        padding: 0;
+        clear: both;
+        
+    }
+
+    #waterfalls {
+        clear: both;
+        width: 100%;
+        padding: 0;
+        height: 600px;
+    }
+
+    #beach-text, #amazon-text, #waterfalls-text {
+        text-align: justify;
+        padding-left: 180px;
+        padding-top: 150px;
+    }
+
+    #amazon-rainforest {
+        background-position: bottom;
+    }
+
+    #gastronomy {
+        padding-top: 800px;
+        margin: 0 auto;
+        height: 670px;
+         
+    }
+
+    #destination {
+        clear: both;
+    }
+
+    #logo {
+        clear: both;
+        float: left;
+        padding-left: 200px;
+        
+        
+    }
+
+    #menu {
+        clear: both;
+        float: left;
+        letter-spacing: 0px;
+        padding-left: 100px;
+        font-size: smaller;
+        word-spacing: 1px;
+        
+    }
+
+    #cover-text {
+        padding-left: 500px;
+        padding-top: 200px;
+    }
+
+
+
+     }
+    
