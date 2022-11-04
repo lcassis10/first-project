@@ -11,6 +11,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     color: #252525;
+    background-color: #333E21;
 }
 
 /* heading and logo */
@@ -62,6 +63,8 @@ h1, h2 {
     font-family: 'Secular One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    
+    
 
     width: 300px;
     height: 200px;
@@ -69,7 +72,17 @@ h1, h2 {
     padding-left: 1200px;
     padding-top: 250px;
 
+}
 
+/* heading sections */
+
+.heading-section {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    font-size: 250%;
+    color: white;
 }
 
 /* natural wonders*/
