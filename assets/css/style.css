@@ -34,6 +34,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
+    
 }
 
 #menu li {
@@ -47,6 +48,7 @@ h1, h2 {
     color: #252525;
     font-weight: bold;
     text-decoration: none;
+   
 }
 
 /* hero image and cover text */
