@@ -232,3 +232,85 @@ h1, h2 {
     width: 100%;
 }
 
+/* destination */
+
+#destination {
+    height: 600px;
+    padding-top: 40px;
+}
+
+#rio {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    height: 100%;
+
+    background: url(../image/rio.jpeg) no-repeat center;
+    background-size: cover;
+    color: #252525;
+      
+    
+}
+
+
+#rio-text h2 {
+    font-size: 200%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 4px;
+    color: #252525;
+
+    
+}
+
+#porto-de-galinhas {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    height: 100%;
+
+    background: url(../image/porto-galinhas.jpeg) no-repeat center;
+    background-size: cover;
+    color: #252525;
+      
+    
+}
+
+
+#porto-de-galinhas-text h2 {
+    font-size: 200%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 4px;
+    color: #252525;
+
+    
+}
+
+#belo-horizonte {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    height: 100%;
+
+    background: url(../image/belo-horizonte.jpeg) no-repeat center;
+    background-size: cover;
+    color: #252525;
+      
+    
+}
+
+
+#belo-horizonte-text h2 {
+    font-size: 200%;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 4px;
+    color: #252525;
+
+    
+}
+
