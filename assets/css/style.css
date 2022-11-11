@@ -65,17 +65,13 @@ h1, h2, h3 {
 }
 
 #cover-text {
-    font-size: 130%;
     font-family: 'Secular One', sans-serif;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    width: 300px;
-    height: 200px;
     position: absolute;
-    bottom: 200px;
-    right: 100px;
-    
+    top: 350px;
+    right: 100px; 
 }
 
 
@@ -100,65 +96,42 @@ h1, h2, h3 {
 
 /*great beaches */
 
-#great-beaches {
-    
-    width: 33%;
-    display: inline-block;
-    height: 85%;
-
-    background: url(../image/wonderfull.beaches.jpeg) no-repeat center;
-    background-size: cover;
-    color: #252525;
-      
-    
-}
 
 
-#beach-text {
+
+.natural-wonder-text {
     font-size: 120%;
     font-family: 'Secular One', sans-serif;
     letter-spacing: 2px;
-
-    width: 500px;
-    height: 200px;
-    padding-left: 40px;
-    text-align: justify;
-    padding-top: 100px;
-
-    
+    text-align: center;
 }
 
 
 /* amazon rainforest */
 
-#amazon-rainforest {
+.natural-wonders-divs {
     
     width: 33%;
-    display: inline-block;
+    display:inline-flex;
     height: 85%;
-
-    background: url(../image/amazon.rainforest.jpeg) no-repeat center;
-    background-size: cover;
-    color: #252525;
-      
+    color: #252525;      
 }
 
-#amazon-text {
-    font-size: 120%;
-    font-family: 'Secular One', sans-serif;
-    letter-spacing: 2px;
-
-    width: 500px;
-    height: 200px;
-    padding-left: 40px;
-    text-align: justify;
-    padding-top: 100px;
-    
-
-    
+.cover-common{
+    background-size: cover!important;
 }
 
+#amazon-rainforest-bg {    
+    background: url(../image/amazon.rainforest.jpeg) no-repeat center;     
+}
 
+#great-beaches-bg {    
+    background: url(../image/wonderfull.beaches.jpeg) no-repeat center;
+}
+
+#waterfalls-bg {    
+    background: url(../image/waterfall.image.avif) no-repeat center;
+}
 
 .natural-wonders-title {
     font-size: 200%;
@@ -168,35 +141,6 @@ h1, h2, h3 {
     word-spacing: 4px;
     color: #252525;
 }
-
-/* waterfalls */
-
-#waterfalls {
-    width: 33%;
-    height: 85%;
-    display: inline-block;
-
-    background: url(../image/waterfall.image.avif) no-repeat center;
-    background-size: cover;
-    color: #252525;
-    
-}
-
-#waterfalls-text {
-    font-size: 120%;
-    font-family: 'Secular One', sans-serif;
-    letter-spacing: 2px;
-
-    width: 500px;
-    height: 200px;
-    padding-left: 40px;
-    text-align: justify;
-    padding-top: 100px;
-    
-
-    
-}
-
 
 /*gastronomy */
 
@@ -356,80 +300,5 @@ footer {
 }
 
 /* media queries */
-@media screen and (max-width:1200px) {
-    #natural-wonders, #gastronomy, #destination {
-        width: 100%;
-        height: 1200px;
-        margin: 0 auto;
-        
-    }
 
-    .heading-section {
-        padding: 30px 0;
-        margin: 0;
-        text-align: center;
-    }
-
-    #great-beaches, #amazon-rainforest {
-        width: 100%;
-        height: 700px;
-        padding: 0;
-        clear: both;
-        
-    }
-
-    #waterfalls {
-        clear: both;
-        width: 100%;
-        padding: 0;
-        height: 600px;
-    }
-
-    #beach-text, #amazon-text, #waterfalls-text {
-        text-align: justify;
-        padding-left: 180px;
-        padding-top: 150px;
-    }
-
-    #amazon-rainforest {
-        background-position: bottom;
-    }
-
-    #gastronomy {
-        padding-top: 800px;
-        margin: 0 auto;
-        height: 670px;
-         
-    }
-
-    #destination {
-        clear: both;
-    }
-
-    #logo {
-        clear: both;
-        float: left;
-        padding-left: 200px;
-        
-        
-    }
-
-    #menu {
-        clear: both;
-        float: left;
-        letter-spacing: 0px;
-        padding-left: 100px;
-        font-size: smaller;
-        word-spacing: 1px;
-        
-    }
-
-    #cover-text {
-        padding-left: 500px;
-        padding-top: 200px;
-    }
-
-
-
-     }
     
