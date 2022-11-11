@@ -128,14 +128,6 @@ h1, h2, h3 {
     
 }
 
-#beach-text h3 {
-    font-size: 200%;
-    font-family: 'Secular One', sans-serif;
-    letter-spacing: 2px;
-    text-align: center;
-    word-spacing: 4px;
-    color: #252525;
-}
 
 /* amazon rainforest */
 
@@ -166,7 +158,9 @@ h1, h2, h3 {
     
 }
 
-#amazon-text h3 {
+
+
+.natural-wonders-title {
     font-size: 200%;
     font-family: 'Secular One', sans-serif;
     letter-spacing: 2px;
@@ -203,14 +197,6 @@ h1, h2, h3 {
     
 }
 
-#waterfalls-text h3 {
-    font-size: 200%;
-    font-family: 'Secular One', sans-serif;
-    letter-spacing: 2px;
-    text-align: center;
-    word-spacing: 4px;
-    color: #252525;
-}
 
 /*gastronomy */
 
