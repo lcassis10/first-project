@@ -16,7 +16,7 @@ body {
 
 /* heading and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Secular One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -83,8 +83,9 @@ h1, h2 {
 
 .heading-section {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 100%;
+    height: 15%;
+    display: block;
 
     font-size: 250%;
     color: #252525;
@@ -94,16 +95,16 @@ h1, h2 {
 
 #natural-wonders {
     height: 600px;
-    padding-bottom: 150px;
+    width: 100%;
 }
 
 /*great beaches */
 
 #great-beaches {
-    padding-top: 30px;
+    
     width: 33%;
-    float: left;
-    height: 100%;
+    display: inline-block;
+    height: 85%;
 
     background: url(../image/wonderfull.beaches.jpeg) no-repeat center;
     background-size: cover;
@@ -127,7 +128,7 @@ h1, h2 {
     
 }
 
-#beach-text h2 {
+#beach-text h3 {
     font-size: 200%;
     font-family: 'Secular One', sans-serif;
     letter-spacing: 2px;
@@ -139,10 +140,10 @@ h1, h2 {
 /* amazon rainforest */
 
 #amazon-rainforest {
-    padding-top: 30px;
+    
     width: 33%;
-    float: right;
-    height: 100%;
+    display: inline-block;
+    height: 85%;
 
     background: url(../image/amazon.rainforest.jpeg) no-repeat center;
     background-size: cover;
@@ -165,7 +166,7 @@ h1, h2 {
     
 }
 
-#amazon-text h2 {
+#amazon-text h3 {
     font-size: 200%;
     font-family: 'Secular One', sans-serif;
     letter-spacing: 2px;
@@ -178,9 +179,8 @@ h1, h2 {
 
 #waterfalls {
     width: 33%;
-    margin: 0 auto;
-    height: 100%;
-    padding-top: 30px;
+    height: 85%;
+    display: inline-block;
 
     background: url(../image/waterfall.image.avif) no-repeat center;
     background-size: cover;
@@ -203,7 +203,7 @@ h1, h2 {
     
 }
 
-#waterfalls-text h2 {
+#waterfalls-text h3 {
     font-size: 200%;
     font-family: 'Secular One', sans-serif;
     letter-spacing: 2px;
