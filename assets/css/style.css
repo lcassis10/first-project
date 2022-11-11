@@ -31,11 +31,6 @@ h1, h2, h3 {
 
 /* navigation links */
 
-#menu {
-    letter-spacing: 1px;
-    
-    
-}
 
 #menu li {
     float: right;
@@ -48,6 +43,7 @@ h1, h2, h3 {
     color: #252525;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
    
 }
 
@@ -248,5 +244,61 @@ footer {
 }
 
 /* media queries */
+@media screen and (max-width: 1200px) {
+    #logo {
+        font-size: 150%;
+    }
 
+    .heading-section {
+        font-size: 150%;
+    }
+
+    .natural-wonders-title {
+        font-size: 125%;
+    }
+
+    #natural-wonders {
+        height: 800px;
+    }
+
+    #gastronomy {
+        height: 650px;
+    }
+
+    #destination {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+
+
+    #natural-wonders {
+        height: 1000px;
+    }
+
+    .natural-wonders-divs {
+        width: 100%;
+        height: 30%;
+        display: block;
+    }
+
+    .heading-section {
+        height: 10%;
+        font-size: 150%;
+    }
+
+    #gastronomy {
+        height: 650px;
+    }
+
+    .destinations-divs {
+        width: 100%;
+        height: 30%;
+        display: block;
+    }
+
+    
+}
     
