@@ -104,6 +104,27 @@ At the end we have links directing to our social media, where we give more infor
 
 - After using flexbox and percentages  the website got much better.
 
+# Validator Testing
+
+- __HTML__
+
+    - No erros were returned when passing through the official W3C validator.
+
+- __CSS__
+
+    - No erros were found when passing through the official (Jigsaw) validator.
+
+- __Accessibility__
+
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+![Lighthouse image](assets/image/screenshots/Lighthouse.JPG)
+
+# Unfixed Bugs
+
+- No unfixed bugs.
+
+
 
 
 
