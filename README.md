@@ -84,6 +84,27 @@ At the end we have links directing to our social media, where we give more infor
 
 ![Footer Image](assets/image/screenshots/footer-screenshot.JPG)
 
+# Testing
+
+- I tested that this page works in different browsers: Chrome, Firefox, Safari.
+
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools devide toolbar.
+
+- I confirmed that the navigation links all works.
+
+- I confirmed that the text of the website are all readable and easy to understand.
+
+- I have confirmed that the form works: requires entries in the first three fields, will only accept an email in the email field, and the submit button works.
+
+# Fixed Bugs
+
+- The site was not responsive, and the images and text were not acting correctly after scaling the page.
+
+- The cause of the problem was using to much float and using padding the wrong way.
+
+- After using flexbox and percentages  the website got much better.
+
+
 
 
 
