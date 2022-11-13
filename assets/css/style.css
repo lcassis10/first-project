@@ -313,6 +313,62 @@ footer {
 
     #natural-wonders {
         height: 1200px;
-    }    
+    }
+    
+    #gastronomy {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .heading-section {
+        font-size: 100%;
+    }
+
+    .natural-wonders-title {
+        font-size: 100%;
+    }
+
+    .natural-wonder-text {
+        font-size: 90%;
+    }
+
+    #cover-text {
+        font-size: small;
+    }
+
+    #menu li {
+        font-size: small;
+    }
+
+    #hero-image {
+        height: 500px;
+    }
+
+    #natural-wonders {
+        height: 900px;
+    }
+
+    .gastronomy-div p {
+        font-size: 90%;
+    }
+
+    .destinations-divs h2 {
+        font-size: larger;
+    }
+
+    #destination {
+        height: 750px;
+    }
+
+    #gastronomy {
+        height: 650px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
 }
     
