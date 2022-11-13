@@ -301,4 +301,18 @@ footer {
 
     
 }
+
+@media screen and (max-width: 800px) {
+
+    #logo {
+        display: contents;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+
+    #natural-wonders {
+        height: 1200px;
+    }    
+}
     
