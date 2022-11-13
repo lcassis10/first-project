@@ -99,6 +99,7 @@ h1, h2, h3 {
     font-family: 'Secular One', sans-serif;
     letter-spacing: 2px;
     text-align: center;
+    text-shadow: 0 0 2px white;
 }
 
 
@@ -371,4 +372,31 @@ footer {
     }
 
 }
-    
+
+@media screen and (max-width: 440px) {
+
+    #cover-text {
+        font-size: x-small;
+        top: 250px;
+    }
+
+    #menu li {
+        font-size: 60%;
+    }
+
+    #hero-image {
+        height: 400px;
+    }
+
+    #natural-wonders {
+        height: 1100px;
+    }
+
+    #gastronomy {
+        height: 700px;
+    }
+
+    .heading-section {
+        font-size: 90%;
+    }
+}
