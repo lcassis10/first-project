@@ -402,6 +402,10 @@ footer {
         height: 650px;
     }
 
+    #cover-text-form {
+        width: 300px;
+    }
+
     footer {
         height: 100px;
     }
@@ -433,5 +437,14 @@ footer {
 
     .heading-section {
         font-size: 90%;
+    }
+
+    #cover-text-form {
+        font-size: small;
+        right: 0px;
+    }
+
+    .form-section {
+        height: 600px;
     }
 }
