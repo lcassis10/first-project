@@ -89,11 +89,6 @@ h1, h2, h3 {
     width: 100%;
 }
 
-/*great beaches */
-
-
-
-
 .natural-wonder-text {
     font-size: 120%;
     font-family: 'Secular One', sans-serif;
@@ -101,9 +96,6 @@ h1, h2, h3 {
     text-align: center;
     text-shadow: 0 0 2px white;
 }
-
-
-/* amazon rainforest */
 
 .natural-wonders-divs {
     
@@ -230,18 +222,14 @@ footer {
 }
 
 #cover-text-form {
-    font-size: 230%;
     font-family: 'Secular One', sans-serif;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 2px;
-    
-    
-
-    width: 800px;
-    height: 200px;
-
-    padding-left: 1200px;
-    padding-top: 130px;
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    width: 500px;
 }
 
 /* media queries */
