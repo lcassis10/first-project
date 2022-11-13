@@ -124,6 +124,32 @@ At the end we have links directing to our social media, where we give more infor
 
 - No unfixed bugs.
 
+# Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+    - In the GitHub repository, navigate to the Settings tab.
+
+    - From the source sextion drop-down menu, select the Master Branch.
+
+    - Once the master branch has been selected, the page provided the link to the completed website.
+
+- The live link can be found here: https://lcassis10.github.io/first-project/index.html
+
+# Credits
+
+### Content
+
+- When making the project, i used some ideas of the Code Institute love running and coders coffehouse projects.
+
+- Font was sourced from Google Fonts https://fonts.google.com/
+
+- Icons were sourced from Font Awesome https://fontawesome.com/
+
+### Media
+
+ - The images were taken from https://www.pexels.com/pt-br/ and https://unsplash.com/ 
+
 
 
 
